@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -76,3 +77,83 @@
 .resultTitle {
   font-size: 2rem;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.slidecontainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.calculation-sec {
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.amount_box,
+.intrest_box,
+.years_box {
+  cursor: pointer;
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.5rem;
+  background-color: rgb(0, 183, 189);
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  text-shadow: 0px 0px 1px #fff;
+}
+.calculation-sec label {
+  margin: 5px;
+  /* padding: 0.5rem; */
+  width: 5.5rem;
+  color: #000;
+  font-weight: 550;
+  text-align: center;
+  background-color: rgb(0, 183, 189);
+  border-radius: 5px;
+}
+.calBtn button {
+  position: relative;
+  left: 40%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 0px 0px 1px #000;
+  text-align: center;
+  padding: 0rem 3rem;
+}
+.result_container {
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 1.2rem 1rem;
+  /* background-color: #e2e2e2; */
+  color: black;
+  margin-top: 0rem 1rem;
+}
+.result_container .col {
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin: 1rem;
+}
+.resultTitle {
+  font-size: 2rem;
+}
+>>>>>>> d60e988816cd5204bf1aba7ab4f183d1e9e8ce6e
